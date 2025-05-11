@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Unity",
+    "icon": "https://img.icons8.com/color/48/000000/unity.png"
+  },
+  {
+    "name": "C#",
+    "icon": "https://img.icons8.com/color/48/000000/c-sharp-logo.png"
+  },
+  {
+    "name": "Google Ads",
+    "icon": "https://img.icons8.com/color/48/000000/google-ads.png"
+  },
+  {
+    "name": "AdMob",
+    "icon": "https://img.icons8.com/color/48/000000/google-admob.png"
+  },
+  {
+    "name": "Git",
+    "icon": "https://img.icons8.com/color/48/000000/git.png"
+  },
+  {
+    "name": "GitHub",
+    "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+  },
+  {
+    "name": "Firebase",
+    "icon": "https://img.icons8.com/color/48/000000/firebase.png"
+  },
+
+  {
+    "name": "Photon",
+    "icon": "https://www.photonengine.com/v2/img/common/nav-logo-photon.svg"
+  },
+  {
+    "name": "Netcode",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ84ahU7_h54tf7ipuIf4NpbYZCowFtaxdwgg6-aExrDsDQobD9yiuXCOr9e7kbxptfadE&usqp=CAU"
+  },
+  {
+    "name": "Socket.io",
+    "icon": "https://socket.io/images/logo.svg"
+  }
+]
