@@ -187,7 +187,7 @@ header .navbar ul li a:hover{
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {    
+.experience .container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -322,7 +322,31 @@ header .navbar ul li a:hover{
   .experience .container::after {
     font-size: 2.2rem;;
   }
+.experience-section {
+  padding: 2rem 9%;
 }
+
+}
+@media screen and (max-width: 600px) {
+  .experience .timeline {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .experience .container {
+    margin-bottom: 2rem;
+  }
+
+  .experience .timeline::after {
+    height: 100%;
+  }
+
+  /* Remove extra bottom space on last container */
+  .experience .container:last-child {
+    margin-bottom: 0;
+  }
+}
+
 /* experience media queries ends */
 /* experience section ends */
 
@@ -464,3 +488,32 @@ header .navbar ul li a:hover{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a23;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-icons a i,
+.social-icons a svg {
+  color: #00eaff;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 234, 255, 0.5);
+}
